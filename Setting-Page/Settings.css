@@ -1,19 +1,19 @@
-#body{
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+#body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 20px 30px 0;
-    
 }
 
 .settingTitle {
     display: inline-block;
 }
 
-.settingTitle h1{
+.settingTitle h1 {
     font-weight: 400;
     color: #333;
     font-size: 2.15em;
 }
-.container .btn{
+
+.container .btn {
     position: relative;
     width: 200px;
     max-width: 200px;
@@ -29,78 +29,72 @@
     font-weight: 400;
     text-align: center;
 }
-.responsive .container{
-    
-    max-width: 1024px;
+
+.responsive .container {
     margin: 0 auto;
     display: inline-block;
-    width: 95%;
-    box-sizing: border-box;
 }
+
 /* .responsive .collapsable-content{
     margin-top: 15px;
     padding-left: 270px;
     position: relative;
     
 } */
-.responsive .container .left p{
-    
-   font-size: 1.125em;;
-   color: #757575;
-   font-weight: 400;
+
+.responsive .left p {
+    font-size: 19px;
+    ;
+    color: #757575;
+    font-weight: 400;
     padding: 0;
     margin-top: 15px;
     margin-bottom: 20px;
 }
-#email{
-    
-   font-size: 19px;
-   color: #333;
-   font-weight: 700;
+
+#email {
+    font-size: 19px;
+    color: #333;
+    font-weight: 700;
     padding: 0;
-    margin-top: 15px;
-    margin-bottom: 10px;
     text-overflow: ellipsis;
 }
-#password{
-   font-size: 19px;
-   color: #757575;
-   
-    margin-bottom: 10px;
-    
-}
-#phone{
-   font-size: 19px;
-   color: #757575;
-    margin-bottom: 10px;   
+
+#password {
+    font-size: 19px;
+    color: #757575;
 }
 
-.responsive .account-link{
+#phone {
+    font-size: 19px;
+    color: #757575;
+}
+
+.responsive .account-link {
     font-size: 18px;
     text-align: right;
     color: #0073e6;
     display: block;
     padding-right: 0;
     border-top: none;
-   
 }
+
 .clearfix:after {
-    content: " "; /* Older browser do not support empty content */
+    content: " ";
+    /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
     height: 0;
     clear: both;
- }
- .icon-payment-image {
+}
+
+.icon-payment-image {
     height: 20px;
     margin-right: 5px;
 }
-#billingDate{
+
+#billingDate {
     font-size: 19px;
     color: #333;
-     margin-bottom: 10px;   
- }
-
- .container  .down-middle{
-     
- }
+    margin-bottom: 10px;
+}
