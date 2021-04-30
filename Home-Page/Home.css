@@ -52,17 +52,17 @@ footer {
     margin: 10px;
 }
 
-.row img{
+.box img {
     transition: transform .3s;
 }
 
 .box a {
-    transition: transform .3s;  
-  }
-  
-  /* .box a:hover {
+    transition: transform .3s;
+}
+
+.box a:hover {
     transition: transform .3s;
     -ms-transform: scale(1.4);
     -webkit-transform: scale(1.4);  
     transform: scale(1.4);
-  } */
+  }
