@@ -1,0 +1,57 @@
+body {
+  background-color: #202020;
+  font-family: 'Poppins', sans-serif;
+  color: #f0ebeb;
+}
+
+.Logo {
+  color: #e50914;
+}
+.Profile-container {
+  width: 35%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.student-Name {
+  background-color: gray;
+}
+hr {
+  border-bottom: 2px solid gray;
+}
+img {
+  width: 150px;
+  border-radius: 5px;
+  position: relative;
+}
+.fas {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  color: black;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid black;
+  left: 25px;
+  top: 110px;
+}
+.fas:hover {
+  box-shadow: 5px 5px 20px 5px #000000;
+}
+.Ratings {
+  background: gray;
+  padding: 5px 8px;
+}
+.save-btn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(241, 237, 237);
+  border-radius: 0;
+  outline: 0;
+  border: none;
+}
+.save-btn:hover {
+  border: 3px solid black;
+}
